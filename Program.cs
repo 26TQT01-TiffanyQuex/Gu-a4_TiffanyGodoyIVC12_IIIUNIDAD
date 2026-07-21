@@ -1,0 +1,56 @@
+﻿internal class Program
+{
+    private static void Main(string[] args)
+    {
+        int opc, signo;
+        Console.WriteLine("Nombre: Tiffany Godoy\nGrado: IV C\nClave: 12\n---------- DESCUBRE LO ÚLTIMO DE TU HORÓSCOPO -----------");
+        Console.WriteLine("Selecciona la fecha que concuerde con tu nacimiento:\n1. 21 de marzo al 19 de abril\n2. 20 de abril al 20 de mayo"+
+                          "\n3. 21 de mayo al 20 de junio\n4. 21 de junio al 22 de julio\n5. 23 de julio al 22 de agosto\n6. 23 de agosto al 22 de septiembre\n7. 23 de septiembre al 22 de octubre" +
+                          "\n8. 23 de octubre al 21 de noviembre\n9. 22 de noviembre al 21 de diciembre\n10. 22 de diciembre al 19 de enero\n11. 20 de enero al 18 de febrero\n12. 19 de febrero al 20 de marzo");
+        opc = Convert.ToInt32(Console.ReadLine());
+
+        switch (opc)
+        {
+            case 1: Console.Clear();
+                Console.WriteLine("Tu signo es Aries :O\nEl horóscopo quiere que te tengas cuidado cada que cruzas la calle, puedes toparte con alguien incorrecto.");
+                break;
+            case 2: Console.Clear();
+                Console.WriteLine("Tu signo es Tauro :3\nEl horóscopo quiere decirte que vienen muchas cosas para el presente, buenas y malas. Recíbelas con una sonrisa.");
+                break;
+            case 3: Console.Clear();
+                Console.WriteLine("Tu signo es Géminis :)\nEl horóscopa quiere decirte que te cuides la boca, no vaya a ser que provoques tu mal.");
+                break;
+            case 4: Console.Clear();
+                Console.WriteLine("Tu signo es Cáncer :O\nEl horóscopa quiere decirte que no aguantas de otros lo que tú no harías, sueles hacerlo.");
+                break;
+            case 5: Console.Clear();
+                Console.WriteLine("Tu signo es Leo :O\nEl horóscopo te pide que perdones y no guardes rencor. Perdona lo imperdonable y serás feliz.");
+                break;
+            case 6: Console.Clear();
+                Console.WriteLine("Tu signo es Virgo <:3\nEl horóscopo te pide que guardes la calma, relájate, no tienes que demostrar nada.");
+                break;
+            case 7: Console.Clear();
+                Console.WriteLine("Tu signo es Libra :)\nEl horóscopo dice que eres alguien muy fuerte y valiente, ¿Qué pasa? deja el autosabotaje!.");
+                break;
+            case 8: Console.Clear();
+                Console.WriteLine("Tu signo es Escorpio :O\nEl horóscopo sabe que tramas algo, puedes estar tranquil@, puedes confiar en el plan de Dios.");
+                break;
+            case 9: Console.Clear();
+                Console.WriteLine("Tu signo es Sagitario <:3\nEl horóscopo sabe que hoy será el día más memorativo del día. No te preocupes por pequeñeses.");
+                break;
+            case 10:
+                Console.Clear();
+                Console.WriteLine("Tu signo es Capricornio :3\nEl horóscopo sabe que siempre buscas disfrutar el momento, hasta ahora trato de hacerlo, así puede ser");
+                break;
+            case 11:
+                Console.Clear();
+                Console.WriteLine("Tu signo es Acuario :3\nEl horóscopo sabe que estás nervios@, pero puedes estar tranquil@, porque esa personita siempre te espera.");
+                break;
+            case 12:
+                Console.Clear();
+                Console.WriteLine("Tu signo es Piscis :)\nEl horóscopo sabe que está vez enfrentaste reto difícil, pero puedes con más, esfuérzate más.");
+                break;
+        }
+    }
+   
+}
