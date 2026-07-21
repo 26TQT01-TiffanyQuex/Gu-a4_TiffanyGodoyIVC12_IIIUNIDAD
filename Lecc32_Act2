@@ -2,7 +2,7 @@
 {
     private static void Main(string[] args)
     {
-        int opc, signo;
+        int opc;
         Console.WriteLine("Nombre: Tiffany Godoy\nGrado: IV C\nClave: 12\n---------- DESCUBRE LO ÚLTIMO DE TU HORÓSCOPO -----------");
         Console.WriteLine("Selecciona la fecha que concuerde con tu nacimiento:\n1. 21 de marzo al 19 de abril\n2. 20 de abril al 20 de mayo"+
                           "\n3. 21 de mayo al 20 de junio\n4. 21 de junio al 22 de julio\n5. 23 de julio al 22 de agosto\n6. 23 de agosto al 22 de septiembre\n7. 23 de septiembre al 22 de octubre" +
@@ -18,10 +18,10 @@
                 Console.WriteLine("Tu signo es Tauro :3\nEl horóscopo quiere decirte que vienen muchas cosas para el presente, buenas y malas. Recíbelas con una sonrisa.");
                 break;
             case 3: Console.Clear();
-                Console.WriteLine("Tu signo es Géminis :)\nEl horóscopa quiere decirte que te cuides la boca, no vaya a ser que provoques tu mal.");
+                Console.WriteLine("Tu signo es Géminis :)\nEl horóscopo quiere decirte que te cuides la boca, no vaya a ser que provoques tu mal.");
                 break;
             case 4: Console.Clear();
-                Console.WriteLine("Tu signo es Cáncer :O\nEl horóscopa quiere decirte que no aguantas de otros lo que tú no harías, sueles hacerlo.");
+                Console.WriteLine("Tu signo es Cáncer :O\nEl horóscopo quiere decirte que no aguantas de otros lo que tú no harías, sueles hacerlo.");
                 break;
             case 5: Console.Clear();
                 Console.WriteLine("Tu signo es Leo :O\nEl horóscopo te pide que perdones y no guardes rencor. Perdona lo imperdonable y serás feliz.");
@@ -36,7 +36,7 @@
                 Console.WriteLine("Tu signo es Escorpio :O\nEl horóscopo sabe que tramas algo, puedes estar tranquil@, puedes confiar en el plan de Dios.");
                 break;
             case 9: Console.Clear();
-                Console.WriteLine("Tu signo es Sagitario <:3\nEl horóscopo sabe que hoy será el día más memorativo del día. No te preocupes por pequeñeses.");
+                Console.WriteLine("Tu signo es Sagitario <:3\nEl horóscopo sabe que hoy vivirás lo más memorable de la semana. No te preocupes por pequeñeses.");
                 break;
             case 10:
                 Console.Clear();
@@ -50,7 +50,11 @@
                 Console.Clear();
                 Console.WriteLine("Tu signo es Piscis :)\nEl horóscopo sabe que está vez enfrentaste reto difícil, pero puedes con más, esfuérzate más.");
                 break;
+            default: Console.Clear();
+                Console.WriteLine("Opción no válida. Por favor, selecciona un número del 1 al 12.");
+                break;
         }
-    }
-   
+        Console.WriteLine("\nPresione cualquier tecla para salir...");
+        Console.ReadKey();
+    }  
 }
